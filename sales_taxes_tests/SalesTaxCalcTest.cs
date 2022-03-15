@@ -79,6 +79,6 @@ public class SalesTaxCalcTest
 
         var result = calc.PrintCalculatedShoppingCart(calculatedCart, 1);
 
-        Assert.True(result != false);
+        Assert.True(result == false);
     }
 }
